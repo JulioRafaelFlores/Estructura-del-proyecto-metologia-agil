@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 2px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.site-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.site-header .logo {
+  font-size: 24px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #007bff;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.products {
+  background-color: #f9f9f9;
+}
+
+.product-filters {
+  justify-content: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+}
+
+.feature-icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+  margin-bottom: 8px;
+  padding: 8px;
+  width: 100%;
+}
+
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #28a745;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+}
+
+#whatsappButton{
+background-color: #25D366;
+
+}
