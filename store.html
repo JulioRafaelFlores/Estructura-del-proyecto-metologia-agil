@@ -8,7 +8,7 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container header-inner">
+    <div class="container header-inner" style="display:flex;align-items:center;">
       <a class="logo" href="#">TechStore</a>
       <nav class="nav">
         <a href="#home">Home</a>
@@ -16,6 +16,11 @@
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>
+      <!-- Botón de carrito en la parte superior derecha -->
+      <a href="cart.html" class="cart-btn" style="margin-left:auto;display:flex;align-items:center;gap:6px;text-decoration:none;position:relative;">
+        <span style="font-size:1.5em;">🛒</span>
+        <span id="cart-count" style="background:#e74c3c;color:#fff;border-radius:50%;padding:2px 8px;font-size:0.9em;position:absolute;top:-8px;right:-8px;min-width:22px;text-align:center;">0</span>
+      </a>
     </div>
   </header>
 
@@ -105,6 +110,15 @@
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mostrar cantidad de productos en el carrito (desde localStorage)
+    function updateCartCount() {
+      const cart = JSON.parse(localStorage.getItem('cart')) || [];
+      const count = cart.reduce((acc, item) => acc + item.quantity, 0);
+      document.getElementById('cart-count').textContent = count;
+    }
+    updateCartCount();
+    window.addEventListener('storage', updateCartCount);
   </script>
   <script src="productos.js"></script>
   <script src="store.js"></script>
