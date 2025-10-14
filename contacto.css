@@ -35,6 +35,8 @@ header {
     transition: background 0.2s, color 0.2s, transform 0.15s, box-shadow 0.15s;
     z-index: 10;
 }
+
+
 .btn-home:hover {
     background: #dbaf8a;
     color: #203a58;
