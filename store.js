@@ -23,7 +23,7 @@ const products = [
   { name: "PC Workstation", price: "$1500", img: "img/pc5workstation.avif", category: "pc", desc: "Ideal para diseño y edición profesional." },
   { name: "PC Mini", price: "$600", img: "img/pc6mini.jpg", category: "pc", desc: "Solución compacta y versátil." },
 { name: "PC HP EliteDesk", price: "$850", img: "img/pc7.jpg", category: "pc", desc: "Rendimiento empresarial y seguridad." },
-{ name: "PC Dell OptiPlex", price: "$900", img: "img/pc8.jpg", category: "pc", desc: "Fiable para oficinas y negocios." },
+{ name: "PC Dell OptiPlex", price: "$900", img: "img/pc8.webp", category: "pc", desc: "Fiable para oficinas y negocios." },
 { name: "PC Lenovo ThinkCentre", price: "$950", img: "img/pc9.jpg", category: "pc", desc: "Robusta y eficiente para trabajo." },
 { name: "PC Asus VivoMini", price: "$650", img: "img/pc10.jpg", category: "pc", desc: "Mini PC para espacios reducidos." },
 
@@ -40,10 +40,10 @@ const products = [
   { name: "Huawei P50", price: "$600", img: "img/cel5.webp", category: "celular", desc: "Fotografía profesional y elegante." },
   { name: "Google Pixel 7", price: "$700", img: "img/celu6.jpg", category: "celular", desc: "Android puro y cámara de calidad." },
 
-{ name: "Oppo Reno 8", price: "$450", img: "img/celu7.jpg", category: "celular", desc: "Diseño elegante y carga rápida." },
-{ name: "Realme 10 Pro", price: "$380", img: "img/celu8.jpg", category: "celular", desc: "Gran pantalla y rendimiento sólido." },
-{ name: "Vivo V23", price: "$420", img: "img/celu9.jpg", category: "celular", desc: "Selfies perfectos y diseño premium." },
-{ name: "Sony Xperia 10 IV", price: "$600", img: "img/celu10.jpg", category: "celular", desc: "Resistente al agua y sonido Hi-Res." },
+{ name: "Oppo Reno 8", price: "$450", img: "img/cel7.jpg", category: "celular", desc: "Diseño elegante y carga rápida." },
+{ name: "Realme 10 Pro", price: "$380", img: "img/cel8.jpg", category: "celular", desc: "Gran pantalla y rendimiento sólido." },
+{ name: "Vivo V23", price: "$420", img: "img/cel9.jpg", category: "celular", desc: "Selfies perfectos y diseño premium." },
+{ name: "Sony Xperia 10 IV", price: "$600", img: "img/cel10.webp", category: "celular", desc: "Resistente al agua y sonido Hi-Res." },
 
   // Tablets
 { name: "iPad 10ª Gen", price: "$450", img: "img/tablet1.webp", category: "tablet", desc: "Pantalla brillante y gran rendimiento para estudio y trabajo." },
@@ -67,9 +67,9 @@ const products = [
   { name: "Auriculares Samsung Buds", price: "$110", img: "img/audifono5.webp", category: "auricular", desc: "Compactos y con buen sonido." },
   { name: "Auriculares Logitech", price: "$90", img: "img/audifono6.webp", category: "auricular", desc: "Ideales para videollamadas y gaming." },
 { name: "Auriculares Sennheiser HD", price: "$160", img: "img/audifono7.jpg", category: "auricular", desc: "Sonido profesional y gran comodidad." },
-{ name: "Auriculares Philips SHB", price: "$80", img: "img/audifono8.jpg", category: "auricular", desc: "Bluetooth y batería de larga duración." },
+{ name: "Auriculares Philips SHB", price: "$80", img: "img/audifono8.webp", category: "auricular", desc: "Bluetooth y batería de larga duración." },
 { name: "Auriculares Beats Solo3", price: "$170", img: "img/audifono9.jpg", category: "auricular", desc: "Estilo moderno y sonido potente." },
-{ name: "Auriculares Panasonic RP", price: "$60", img: "img/audifono10.jpg", category: "auricular", desc: "Ligero y económico para uso diario." },
+{ name: "Auriculares Panasonic RP", price: "$60", img: "img/audifono10.webp", category: "auricular", desc: "Ligero y económico para uso diario." },
 
 
 // Accesorios 
@@ -81,9 +81,9 @@ const products = [
 { name: "Adaptador HDMI a VGA", price: "$18", img: "img/accsesorio7.jpg", category: "accesorio", desc: "Conecta tu laptop a monitores y proyectores antiguos." },
   
 { name: "Cargador Universal", price: "$30", img: "img/accsesorio8.jpg", category: "accesorio", desc: "Compatible con la mayoría de laptops." },
-{ name: "Alfombrilla Gaming", price: "$20", img: "img/accsesorio9.jpg", category: "accesorio", desc: "Superficie amplia y antideslizante." },
+{ name: "Alfombrilla Gaming", price: "$20", img: "img/accsesorio9.webp", category: "accesorio", desc: "Superficie amplia y antideslizante." },
 { name: "Cable USB-C a USB-A", price: "$12", img: "img/accsesorio10.jpg", category: "accesorio", desc: "Transferencia rápida y resistente." },
-{ name: "Soporte Ajustable", price: "$25", img: "img/accsesorio11.jpg", category: "accesorio", desc: "Ergonómico y portátil para cualquier laptop." },
+{ name: "Soporte Ajustable", price: "$25", img: "img/accsesorio5.jpg", category: "accesorio", desc: "Ergonómico y portátil para cualquier laptop." },
 
 ];
 
