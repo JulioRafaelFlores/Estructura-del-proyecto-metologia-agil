@@ -265,7 +265,7 @@ body {
 }
 
 .product-card img {
-  max-width: 120px;
+  max-width: 220px;
   margin-bottom: 1rem;
 }
 
@@ -407,24 +407,120 @@ body {
 /* Centrar el cuadro blanco de productos */
 
 
+
+/*
+
+/* ...existing code... */
+
+/* Elimina fondo blanco y sombra del contenedor de productos */
 .products {
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
-  padding: 2rem;
-  max-width: 950px;      /* Limita el ancho máximo del cuadro */
-  margin: 40px auto;     /* Centra y separa del borde superior/inferior */
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 2.5rem 0;
+  max-width: 1200px;
+  margin: 50px auto;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   width: 100%;
-  max-width: 900px;
+  max-width: 1800px;
   margin: 0 auto;
   justify-items: center;
+}
+/*/
+
+
+/* Estilo de los cuadros de productos similar al ejemplo */
+.product-card, .product {
+  background: rgba(255,255,255,0.85); /* Fondo blanco semi-transparente */
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  padding: 2rem 1.5rem;
+  min-height: 320px;
+  width: 100%;
+  max-width: 380px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Centra el contenido de cada producto */
+.product-card img, .product img {
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+/* ...existing code... */
+
+@media (max-width: 900px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 98vw;
+  }
+}/* ...existing code... */
+
+/*
+
+
+/* Centra la grilla y ajusta el ancho */
+
+
+/* Estilo de los cuadros de productos similar al ejemplo */
+
+
+/* Centra el contenido de cada producto */
+.product-card img, .product img {
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+/* ...existing code... */
+
+@media (max-width: 900px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 98vw;
+  }
+}
+
+
+
+
+
+/* ...existing code... */
+
+@media (max-width: 900px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas en móvil/tablet */
+  }
+}
+
+
+.product,
+.product-card {
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.product:hover,
+.product-card:hover {
+  transform: scale(1.06);
+  box-shadow: 0 8px 24px rgba(11,97,255,0.18);
+  z-index: 2;
+}
+/* ...existing code... */
+.product img,
+.product-card img {
+  width: 300px;
+  height: 180px;
+  
+
 }
