@@ -2,12 +2,12 @@
 
 const products = [
   // Laptops
-  { name: "Laptop HP", price: "$650", img: "assets/laptop.png", category: "laptop" },
-  { name: "Laptop Dell", price: "$720", img: "assets/laptop2.png", category: "laptop" },
-  { name: "Laptop Lenovo", price: "$680", img: "assets/laptop3.png", category: "laptop" },
-  { name: "Laptop Asus", price: "$750", img: "assets/laptop4.png", category: "laptop" },
-  { name: "Laptop Acer", price: "$630", img: "assets/laptop5.png", category: "laptop" },
-  { name: "Laptop Apple MacBook", price: "$1200", img: "assets/laptop6.png", category: "laptop" },
+  { name: "Laptop HP", price: "$650", img: "img/laptop1.webp", category: "laptop" },
+  { name: "Laptop Dell", price: "$720", img: "img/laptop2.png", category: "laptop" },
+  { name: "Laptop Lenovo", price: "$680", img: "img/laptop3.avif", category: "laptop" },
+  { name: "Laptop Asus", price: "$750", img: "img/laptop4.png", category: "laptop" },
+  { name: "Laptop Acer", price: "$630", img: "img/laptop5.jpg", category: "laptop" },
+  { name: "Laptop Apple MacBook", price: "$1200", img: "img/laptop6.jpg", category: "laptop" },
 
   // Computadoras
   { name: "PC Gamer", price: "$1200", img: "assets/pc.png", category: "pc" },
