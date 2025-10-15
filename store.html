@@ -56,47 +56,61 @@
         <button class="btn btn-primary" data-filter="celular">Celulares</button>
         <button class="btn btn-primary" data-filter="auricular">Auriculares</button>
          <button class="btn btn-primary" data-filter="accesorio">Accesorios</button>
+          <button class="btn btn-primary" data-filter="tablet">Tablets</button>
       </div>
       <div id="productGrid" class="product-grid">
         <!-- Los productos se insertan por JS -->
       </div>
     </section>
-
-    <section id="about" class="container section about">
-      <h3>Sobre Nosotros</h3>
-      <div class="about-content">
-        <div class="about-text">
-          <p>
-            En <strong>TechStore</strong> nos apasiona la tecnología y la atención al cliente. Ofrecemos productos de calidad, asesoría personalizada y envíos rápidos a todo el país.
-          </p>
-          <p>
-            Nuestro equipo está comprometido con tu satisfacción y con brindarte la mejor experiencia de compra.
-          </p>
-        </div>
-        <div class="about-features">
-          <div class="feature">
-            <span class="feature-icon">🚚</span>
-            <span>Envíos rápidos</span>
-          </div>
-          <div class="feature">
-            <span class="feature-icon">💬</span>
-            <span>Soporte especializado</span>
-          </div>
-          <div class="feature">
-            <span class="feature-icon">🛡️</span>
-            <span>Garantía en productos</span>
-          </div>
-          <div class="feature">
-            <span class="feature-icon">⭐</span>
-            <span>Clientes satisfechos</span>
-          </div>
-        </div>
-      </div>
-    </section>
+>
 
   </main>
 
-  <!-- redes sociales movidas al footer -->
+
+<!-- Reemplaza tu bloque de footer por este -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-info">
+      <h3 class="footer-brand">TechStore</h3>
+      
+    </div>
+    <div class="footer-social">
+      <h3 class="footer-title">Redes Sociales</h3>
+      <ul class="footer-icons">
+        <li class="facebook-icon">
+          <a href="https://www.facebook.com/share/15oGi8qs8p/" target="_blank" rel="noreferrer">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li class="instagram-icon">
+          <a href="https://www.instagram.com/panaderia_of_esperanza?igsh=anI3bWhiczdjcno5" target="_blank" rel="noreferrer">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li class="whatsapp-icon">
+          <a href="https://wa.me/8097576158" target="_blank" rel="noreferrer">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </li>
+        <li class="github-icon">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="footer-bottom">
+    <p>© <span id="year"></span> TechStore. Todos los derechos reservados.</p>
+  </div>
+
+</footer>
+
+
+
+
+
+  <!-- 
   <footer class="site-footer">
   <div class="container footer-inner">
     <div>© <span id="year"></span> TechStore</div>
@@ -127,6 +141,8 @@
     </div>
   </div>
 </footer>
+-->
+
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();

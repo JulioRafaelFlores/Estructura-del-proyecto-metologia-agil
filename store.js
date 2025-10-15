@@ -10,13 +10,7 @@ const products = [
 
 
 // Accesorios para laptops
-{ name: "Mouse Inalámbrico Logitech", price: "$35", img: "img/mouse-logitech.jpg", category: "accesorio", desc: "Precisión y comodidad para trabajar sin cables." },
-{ name: "Teclado Bluetooth Microsoft", price: "$45", img: "img/teclado-microsoft.jpg", category: "accesorio", desc: "Diseño compacto y conexión rápida." },
-{ name: "Base Refrigerante Cooler Master", price: "$28", img: "img/base-coolermaster.jpg", category: "accesorio", desc: "Mantén tu laptop fresca y mejora el rendimiento." },
-{ name: "Hub USB-C 6 en 1", price: "$55", img: "img/hub-usbc.jpg", category: "accesorio", desc: "Expande puertos y conecta todos tus dispositivos." },
-{ name: "Funda Protectora Neopreno", price: "$22", img: "img/funda-neopreno.jpg", category: "accesorio", desc: "Protege tu laptop de golpes y rayaduras." },
-{ name: "Adaptador HDMI a VGA", price: "$18", img: "img/adaptador-hdmivga.jpg", category: "accesorio", desc: "Conecta tu laptop a monitores y proyectores antiguos." },
-  
+
   // Computadoras
   { name: "PC Gamer", price: "$1200", img: "img/pc1gamer.webp", category: "pc", desc: "Potencia para juegos exigentes." },
   { name: "PC Oficina", price: "$800", img: "img/pc2oficina.jpg", category: "pc", desc: "Perfecta para tareas administrativas." },
@@ -32,13 +26,33 @@ const products = [
   { name: "Motorola Edge", price: "$500", img: "img/cel4.avif", category: "celular", desc: "Diseño moderno y buen desempeño." },
   { name: "Huawei P50", price: "$600", img: "img/cel5.webp", category: "celular", desc: "Fotografía profesional y elegante." },
   { name: "Google Pixel 7", price: "$700", img: "img/celu6.jpg", category: "celular", desc: "Android puro y cámara de calidad." },
+
+
+
+  // Tablets
+{ name: "iPad 10ª Gen", price: "$450", img: "img/tablet1.webp", category: "tablet", desc: "Pantalla brillante y gran rendimiento para estudio y trabajo." },
+{ name: "Samsung Galaxy Tab S8", price: "$520", img: "img/tablet2.jpg", category: "tablet", desc: "Ideal para productividad y entretenimiento multimedia." },
+{ name: "Lenovo Tab M10", price: "$210", img: "img/tablet3.jpg", category: "tablet", desc: "Tablet versátil y económica para toda la familia." },
+{ name: "Huawei MatePad 11", price: "$390", img: "img/tablet4.jpg", category: "tablet", desc: "Excelente autonomía y pantalla de alta resolución." },
+{ name: "Xiaomi Pad 6", price: "$320", img: "img/tablet5.jpg", category: "tablet", desc: "Gran relación calidad-precio y diseño moderno." },
+{ name: "Amazon Fire HD 10", price: "$180", img: "img/tablet6.jpg", category: "tablet", desc: "Perfecta para leer, navegar y ver contenido." },
   // Auriculares
   { name: "Auriculares JBL", price: "$120", img: "img/audifono1.webp", category: "auricular", desc: "Sonido potente y diseño cómodo." },
   { name: "Auriculares Sony", price: "$140", img: "img/audifono2.avif", category: "auricular", desc: "Cancelación de ruido y alta fidelidad." },
   { name: "Auriculares Bose", price: "$180", img: "img/audifonos3.jpg", category: "auricular", desc: "Calidad premium y gran autonomía." },
   { name: "Auriculares Apple AirPods", price: "$200", img: "img/audifono4.jpg", category: "auricular", desc: "Integración perfecta con dispositivos Apple." },
   { name: "Auriculares Samsung Buds", price: "$110", img: "img/audifono5.webp", category: "auricular", desc: "Compactos y con buen sonido." },
-  { name: "Auriculares Logitech", price: "$90", img: "img/audifono6.webp", category: "auricular", desc: "Ideales para videollamadas y gaming." }
+  { name: "Auriculares Logitech", price: "$90", img: "img/audifono6.webp", category: "auricular", desc: "Ideales para videollamadas y gaming." },
+
+
+// Accesorios 
+{ name: "Mouse Inalámbrico Logitech", price: "$35", img: "img/accsesorio1.jpg", category: "accesorio", desc: "Precisión y comodidad para trabajar sin cables." },
+{ name: "Teclado Bluetooth Microsoft", price: "$45", img: "img/accsesorio2.jpg", category: "accesorio", desc: "Diseño compacto y conexión rápida." },
+{ name: "Base Refrigerante Cooler Master", price: "$28", img: "img/accsesorio3.jpg", category: "accesorio", desc: "Mantén tu laptop fresca y mejora el rendimiento." },
+{ name: "Hub USB-C 6 en 1", price: "$55", img: "img/accsesorio4.jpg", category: "accesorio", desc: "Expande puertos y conecta todos tus dispositivos." },
+{ name: "Funda Protectora Neopreno", price: "$22", img: "img/accsesorio6.jpg", category: "accesorio", desc: "Protege tu laptop de golpes y rayaduras." },
+{ name: "Adaptador HDMI a VGA", price: "$18", img: "img/accsesorio7.jpg", category: "accesorio", desc: "Conecta tu laptop a monitores y proyectores antiguos." },
+  
 ];
 
 // ...existing code...
