@@ -2,12 +2,27 @@
 // Lee el carrito desde localStorage
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
+function toNumberPrice(v){
+    if (typeof v === 'number' && !isNaN(v)) return v;
+    if (!v && v !== 0) return 0;
+    // remove currency symbols and spaces
+    const s = String(v).replace(/[^0-9.,-]/g, '').replace(/,/g, '');
+    const n = parseFloat(s);
+    return isNaN(n) ? 0 : n;
+}
+
+// normalize any existing cart prices to numbers
+cart = cart.map(item => ({ ...item, price: toNumberPrice(item.price), quantity: Number(item.quantity) || 0 }));
+
 function saveCart() {
-    localStorage.setItem('cart', JSON.stringify(cart));
+    // ensure prices are serialized as numbers
+    const serial = cart.map(i => ({ ...i, price: toNumberPrice(i.price), quantity: Number(i.quantity) || 0 }));
+    localStorage.setItem('cart', JSON.stringify(serial));
 }
 
 function removeFromCart(productId) {
-    cart = cart.filter(item => item.id !== productId);
+    // compare IDs as strings for robustness
+    cart = cart.filter(item => String(item.id) !== String(productId));
     saveCart();
     updateCartDisplay();
     updateCartCount();
@@ -32,7 +47,7 @@ function updateCartDisplay() {
         document.getElementById('totalAmount').textContent = '0';
         return;
     }
-    cart.forEach(item => {
+        cart.forEach(item => {
         const itemElement = document.createElement('div');
         itemElement.className = 'cart-item';
         itemElement.style = 'display:flex;align-items:center;gap:16px;padding:10px 0;border-bottom:1px solid #f0f0f0;';
@@ -43,10 +58,18 @@ function updateCartDisplay() {
                 <div style="color:var(--muted);font-size:0.95em;">Cantidad: ${item.quantity}</div>
             </div>
             <div style="font-weight:700;color:var(--primary);min-width:80px;text-align:right;">$${(item.price * item.quantity).toFixed(2)}</div>
-            <button class="btn btn-ghost" style="color:var(--accent);font-size:1.2em;" title="Eliminar" onclick="removeFromCart(${item.id})">✕</button>
+                        <button class="btn btn-ghost cart-remove" data-id="${item.id}" style="color:var(--accent);font-size:1.2em;" title="Eliminar">✕</button>
         `;
         cartContainer.appendChild(itemElement);
     });
+        // attach remove handlers
+        const removeButtons = cartContainer.querySelectorAll('.cart-remove');
+        removeButtons.forEach(b => {
+            b.addEventListener('click', () => {
+                const id = b.getAttribute('data-id');
+                removeFromCart(id);
+            });
+        });
     document.getElementById('totalAmount').textContent = `$${calculateTotal().toFixed(2)}`;
 }
 
@@ -69,8 +92,10 @@ function sendOrderWhatsApp() {
 }
 
 // Botones y eventos
-document.getElementById('whatsappButton').addEventListener('click', sendOrderWhatsApp);
-document.getElementById('clearCartButton').addEventListener('click', clearCart);
+const whatsappBtn = document.getElementById('whatsappButton');
+if (whatsappBtn) whatsappBtn.addEventListener('click', sendOrderWhatsApp);
+const clearBtn = document.getElementById('clearCartButton');
+if (clearBtn) clearBtn.addEventListener('click', clearCart);
 
 // Inicializar
 updateCartDisplay();

@@ -8,8 +8,10 @@ const products = [
   { name: "Laptop Acer", price: "$630", img: "img/laptop5.jpg", category: "laptop", desc: "Excelente relación calidad-precio." },
   { name: "Laptop Apple MacBook", price: "$1200", img: "img/laptop6.jpg", category: "laptop", desc: "Experiencia premium y alto rendimiento." },
 
+
+  
   // Computadoras
-  { name: "PC Gamer", price: "$1200", img: "img/pc1gamer.webp", category: "pc", desc: "Potencia para juegos exigentes." },
+  { name: "PC Gamer", price: "$1200", img: "img/laptop2.png", category: "pc", desc: "Potencia para juegos exigentes." },
   { name: "PC Oficina", price: "$800", img: "img/pc2oficina.jpg", category: "pc", desc: "Perfecta para tareas administrativas." },
   { name: "PC All-in-One", price: "$950", img: "img/pc3allin.avif", category: "pc", desc: "Todo en uno, ahorra espacio." },
   { name: "PC Compacta", price: "$700", img: "img/pc4conpacta.jpg", category: "pc", desc: "Diseño pequeño y eficiente." },
@@ -17,20 +19,19 @@ const products = [
   { name: "PC Mini", price: "$600", img: "img/pc6mini.jpg", category: "pc", desc: "Solución compacta y versátil." },
 
   // Celulares
-  { name: "iPhone 14", price: "$999", img: "assets/phone.png", category: "celular", desc: "Tecnología avanzada y gran cámara." },
-  { name: "Samsung Galaxy S23", price: "$850", img: "assets/phone2.png", category: "celular", desc: "Pantalla brillante y alto rendimiento." },
+  { name: "iPhone 14", price: "$999", img: "img/celular1.jpg", category: "celular", desc: "Tecnología avanzada y gran cámara." },
+  { name: "Samsung Galaxy S23", price: "$850", img: "img/phone2.png", category: "celular", desc: "Pantalla brillante y alto rendimiento." },
   { name: "Xiaomi Redmi Note 12", price: "$400", img: "assets/phone3.png", category: "celular", desc: "Excelente batería y precio accesible." },
-  { name: "Motorola Edge", price: "$500", img: "assets/phone4.png", category: "celular", desc: "Diseño moderno y buen desempeño." },
-  { name: "Huawei P50", price: "$600", img: "assets/phone5.png", category: "celular", desc: "Fotografía profesional y elegante." },
-  { name: "Google Pixel 7", price: "$700", img: "assets/phone6.png", category: "celular", desc: "Android puro y cámara de calidad." },
-
+  { name: "Motorola Edge", price: "$500", img: "img/cel4.avif", category: "celular", desc: "Diseño moderno y buen desempeño." },
+  { name: "Huawei P50", price: "$600", img: "img/cel5.webp", category: "celular", desc: "Fotografía profesional y elegante." },
+  { name: "Google Pixel 7", price: "$700", img: "img/celu6.jpg", category: "celular", desc: "Android puro y cámara de calidad." },
   // Auriculares
-  { name: "Auriculares JBL", price: "$120", img: "assets/headphones.png", category: "auricular", desc: "Sonido potente y diseño cómodo." },
-  { name: "Auriculares Sony", price: "$140", img: "assets/headphones2.png", category: "auricular", desc: "Cancelación de ruido y alta fidelidad." },
-  { name: "Auriculares Bose", price: "$180", img: "assets/headphones3.png", category: "auricular", desc: "Calidad premium y gran autonomía." },
-  { name: "Auriculares Apple AirPods", price: "$200", img: "assets/headphones4.png", category: "auricular", desc: "Integración perfecta con dispositivos Apple." },
-  { name: "Auriculares Samsung Buds", price: "$110", img: "assets/headphones5.png", category: "auricular", desc: "Compactos y con buen sonido." },
-  { name: "Auriculares Logitech", price: "$90", img: "assets/headphones6.png", category: "auricular", desc: "Ideales para videollamadas y gaming." }
+  { name: "Auriculares JBL", price: "$120", img: "img/audifono1.webp", category: "auricular", desc: "Sonido potente y diseño cómodo." },
+  { name: "Auriculares Sony", price: "$140", img: "img/audifono2.avif", category: "auricular", desc: "Cancelación de ruido y alta fidelidad." },
+  { name: "Auriculares Bose", price: "$180", img: "img/audifonos3.jpg", category: "auricular", desc: "Calidad premium y gran autonomía." },
+  { name: "Auriculares Apple AirPods", price: "$200", img: "img/audifono4.jpg", category: "auricular", desc: "Integración perfecta con dispositivos Apple." },
+  { name: "Auriculares Samsung Buds", price: "$110", img: "img/audifono5.webp", category: "auricular", desc: "Compactos y con buen sonido." },
+  { name: "Auriculares Logitech", price: "$90", img: "img/audifono6.webp", category: "auricular", desc: "Ideales para videollamadas y gaming." }
 ];
 
 // ...existing code...

@@ -218,6 +218,58 @@ body {
   gap: 2rem;
 }
 
+/* Carrito: limitar la lista de items y permitir scroll cuando crece */
+.cart-items, #cartItems {
+  max-height: 360px; /* ajusta según necesidad */
+  overflow-y: auto;
+  padding-right: 8px; /* espacio para scrollbar */
+}
+
+/* Scrollbar moderno para webkit */
+.cart-items::-webkit-scrollbar, #cartItems::-webkit-scrollbar {
+  width: 10px;
+}
+.cart-items::-webkit-scrollbar-track, #cartItems::-webkit-scrollbar-track {
+  background: transparent;
+}
+.cart-items::-webkit-scrollbar-thumb, #cartItems::-webkit-scrollbar-thumb {
+  background: rgba(11,97,255,0.12);
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+@media (max-width:600px){
+  .cart-items, #cartItems { max-height: 240px; }
+}
+
+/* Cart title styling */
+.cart-title{
+  text-align:center;
+  font-size:2rem;
+  color:var(--primary);
+  font-weight:800;
+  margin: 18px 0 24px 0;
+}
+
+/* Social icons small */
+.icon-btn{
+  background:transparent;
+  border:0;
+  padding:0;
+}
+.social-icon{
+  width:50px;
+  height:50px;
+  object-fit:contain;
+  display:block;
+}
+
+.site-footer .social{ display:flex; gap:18px; align-items:center; }
+.site-footer .social .icon-btn{ padding:0; }
+.site-footer .social-item{ display:flex;flex-direction:column;align-items:center;gap:6px }
+.site-footer .social-label{ font-size:0.85rem;color:#ffffff;font-weight:700; }
+
 .hero-text h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
