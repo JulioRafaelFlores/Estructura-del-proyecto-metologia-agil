@@ -23,8 +23,7 @@ const products = [
   { name: "Xiaomi Redmi Note 12", price: "$400", img: "assets/phone3.png", category: "celular", desc: "Excelente batería y precio accesible." },
   { name: "Motorola Edge", price: "$500", img: "assets/phone4.png", category: "celular", desc: "Diseño moderno y buen desempeño." },
   { name: "Huawei P50", price: "$600", img: "assets/phone5.png", category: "celular", desc: "Fotografía profesional y elegante." },
-  { name: "Google Pixel 7", price: "$700", img: "assets/phone6.png", category: "celular", desc: "Android puro y cámara de calidad." },
-
+  { name: "Google Pixel 7", price: "$700", img: "img/celu6.jpg", category: "celular", desc: "Android puro y cámara de calidad." },
   // Auriculares
   { name: "Auriculares JBL", price: "$120", img: "assets/headphones.png", category: "auricular", desc: "Sonido potente y diseño cómodo." },
   { name: "Auriculares Sony", price: "$140", img: "assets/headphones2.png", category: "auricular", desc: "Cancelación de ruido y alta fidelidad." },
