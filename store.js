@@ -17,7 +17,7 @@ const products = [
   { name: "PC Mini", price: "$600", img: "img/pc6mini.jpg", category: "pc", desc: "Solución compacta y versátil." },
 
   // Celulares
-  { name: "iPhone 14", price: "$999", img: "assets/phone.png", category: "celular", desc: "Tecnología avanzada y gran cámara." },
+  { name: "iPhone 14", price: "$999", img: "img/celular1.jpg", category: "celular", desc: "Tecnología avanzada y gran cámara." },
   { name: "Samsung Galaxy S23", price: "$850", img: "assets/phone2.png", category: "celular", desc: "Pantalla brillante y alto rendimiento." },
   { name: "Xiaomi Redmi Note 12", price: "$400", img: "assets/phone3.png", category: "celular", desc: "Excelente batería y precio accesible." },
   { name: "Motorola Edge", price: "$500", img: "assets/phone4.png", category: "celular", desc: "Diseño moderno y buen desempeño." },
