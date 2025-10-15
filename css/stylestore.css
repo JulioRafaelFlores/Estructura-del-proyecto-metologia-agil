@@ -1,9 +1,9 @@
 :root{
   /* Ajusta estos valores para que coincidan con los colores de tu login */
-  --primary: #0b61ff;    /* azul principal */
-  --accent: #ff7a00;     /* acento naranja */
-  --bg: #f7f9fc;
-  --text: #1b2340;
+  --primary: #5E1803;    /* azul principal */
+  --accent: #5E1803;     /* acento naranja */
+  --bg: #788176;
+  --text: #1;
   --muted: #6b7280;
   --container-width: 1100px;
 }
@@ -195,8 +195,8 @@ body {
 }
 
 .btn-primary {
-  background: #ff9900;
-  color: #fff;
+  background: #CCB999;
+   color: #fff;
 }
 
 .btn-ghost {
@@ -275,7 +275,7 @@ body {
 }
 
 .product-card .price {
-  color: #ff9900;
+  color: #5E1803;
   font-weight: bold;
   margin-bottom: .5rem;
 }
@@ -288,7 +288,7 @@ body {
 }
 
 .site-footer {
-  background: #003366;
+  background: #5E1803;
   color: #fff;
   padding: 1.5rem 0;
 }
@@ -308,7 +308,7 @@ body {
 }
 
 .social a:hover {
-  color: #ff9900;
+  color: #CCB999;
 }
 
 @media (max-width: 900px) {
@@ -325,7 +325,7 @@ body {
 
 
 .site-header {
-  background: #003366;
+  background: #CCB999;
   color: #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   position: sticky;
@@ -346,7 +346,7 @@ body {
 }
 
 .hero {
-  background: #003366; /* Fondo azul sólido */
+  background: #5E1803; /* Fondo azul sólido */
   color: #fff;
   padding: 3rem 0;
 }

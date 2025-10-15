@@ -1,117 +1,131 @@
-<<<<<<< HEAD:css/contacto.css
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(120deg, #a2aeb3 60%, #dbaf8a 100%);
-    color: #203a58;
+    background: linear-gradient(120deg, #788176 50%, #CCB999 100%);
+    color: #5E1803;
     margin: 0;
     padding: 0;
     min-height: 100vh;
     animation: bg-move 10s ease-in-out infinite alternate;
 }
+
 @keyframes bg-move {
     0% { background-position: 0% 50%; }
     100% { background-position: 100% 50%; }
 }
+
 header {
     position: relative;
     text-align: center;
-    background: #203a58;
-    color: #dbaf8a;
+    background: #5E1803;   /* Pipe */
+    color: #CCB999;        /* Rusk */
     padding: 2rem 0 1rem 0;
-    box-shadow: 0 4px 24px rgba(32,58,88,0.10);
+    box-shadow: 0 4px 24px rgba(94, 24, 3, 0.25);
     letter-spacing: 2px;
 }
+
 .btn-home {
     position: absolute;
     top: 1.5rem;
     left: 2rem;
-    background: #203a58;
-    color: #dbaf8a;
+    background: #5E1803;
+    color: #CCB999;
     padding: 0.6em 1.3em;
     border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
     font-size: 1rem;
-    box-shadow: 0 2px 8px rgba(32,58,88,0.10);
+    box-shadow: 0 2px 8px rgba(94, 24, 3, 0.2);
     transition: background 0.2s, color 0.2s, transform 0.15s, box-shadow 0.15s;
     z-index: 10;
 }
+
 .btn-home:hover {
-    background: #dbaf8a;
-    color: #203a58;
+    background: #CCB999;
+    color: #5E1803;
     transform: scale(1.07);
-    box-shadow: 0 6px 18px rgba(32,58,88,0.18);
+    box-shadow: 0 6px 18px rgba(94, 24, 3, 0.25);
 }
+
 .contacto-section {
     max-width: 500px;
     margin: 2.5rem auto;
-    background: #fff;
+    background: #FFFFFF;
     border-radius: 1.2rem;
-    box-shadow: 0 6px 24px rgba(32,58,88,0.13);
-    padding: 2.5rem 2rem 2rem 2rem;
+    box-shadow: 0 6px 24px rgba(120, 129, 118, 0.25);
+    padding: 2.5rem 2rem;
     animation: fadeInUp 1s;
 }
+
 @keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(40px);}
-    to { opacity: 1; transform: translateY(0);}
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
 }
+
 .contacto-section h2 {
-    color: #6f8ca4;
+    color: #788176; /* Sage */
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
     letter-spacing: 1px;
 }
+
 .contacto-section p {
-    color: #203a58;
+    color: #5E1803; /* Pipe */
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
 }
+
 .contacto-form {
     display: flex;
     flex-direction: column;
     gap: 1.1rem;
 }
+
 .contacto-form label {
     font-weight: 500;
-    color: #203a58;
+    color: #5E1803;
     margin-bottom: 0.2rem;
 }
+
 .contacto-form input,
 .contacto-form textarea {
-    border: 1.5px solid #6f8ca4;
+    border: 1.5px solid #788176;
     border-radius: 6px;
     padding: 0.8em;
     font-size: 1rem;
-    background: #f4f6fa;
-    color: #203a58;
+    background: #f8f8f6;
+    color: #5E1803;
     transition: border-color 0.2s, box-shadow 0.2s;
     outline: none;
     resize: none;
 }
+
 .contacto-form input:focus,
 .contacto-form textarea:focus {
-    border-color: #dbaf8a;
-    box-shadow: 0 0 0 2px #dbaf8a55;
+    border-color: #CCB999;
+    box-shadow: 0 0 0 2px #ccb99966;
 }
+
 .btn-enviar {
-    background: #203a58;
-    color: #dbaf8a;
+    background: #5E1803;
+    color: #CCB999;
     padding: 0.7em 1.5em;
     border: none;
     border-radius: 6px;
     font-weight: bold;
     font-size: 1.1rem;
     cursor: pointer;
-    box-shadow: 0 2px 8px rgba(32,58,88,0.10);
+    box-shadow: 0 2px 8px rgba(94, 24, 3, 0.25);
     transition: background 0.2s, color 0.2s, transform 0.15s, box-shadow 0.15s;
     align-self: flex-end;
 }
+
 .btn-enviar:hover {
-    background: #dbaf8a;
-    color: #203a58;
+    background: #CCB999;
+    color: #5E1803;
     transform: scale(1.07);
-    box-shadow: 0 6px 18px rgba(32,58,88,0.18);
+    box-shadow: 0 6px 18px rgba(94, 24, 3, 0.3);
 }
+
 @media (max-width: 600px) {
     .contacto-section {
         padding: 1.2rem 0.7rem 1rem 0.7rem;
@@ -120,129 +134,4 @@ header {
         left: 1rem;
         top: 1rem;
     }
-=======
-body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(120deg, #a2aeb3 60%, #dbaf8a 100%);
-    color: #203a58;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    animation: bg-move 10s ease-in-out infinite alternate;
-}
-@keyframes bg-move {
-    0% { background-position: 0% 50%; }
-    100% { background-position: 100% 50%; }
-}
-header {
-    position: relative;
-    text-align: center;
-    background: #203a58;
-    color: #dbaf8a;
-    padding: 2rem 0 1rem 0;
-    box-shadow: 0 4px 24px rgba(32,58,88,0.10);
-    letter-spacing: 2px;
-}
-.btn-home {
-    position: absolute;
-    top: 1.5rem;
-    left: 2rem;
-    background: #203a58;
-    color: #dbaf8a;
-    padding: 0.6em 1.3em;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1rem;
-    box-shadow: 0 2px 8px rgba(32,58,88,0.10);
-    transition: background 0.2s, color 0.2s, transform 0.15s, box-shadow 0.15s;
-    z-index: 10;
-}
-
-
-.btn-home:hover {
-    background: #dbaf8a;
-    color: #203a58;
-    transform: scale(1.07);
-    box-shadow: 0 6px 18px rgba(32,58,88,0.18);
-}
-.contacto-section {
-    max-width: 500px;
-    margin: 2.5rem auto;
-    background: #fff;
-    border-radius: 1.2rem;
-    box-shadow: 0 6px 24px rgba(32,58,88,0.13);
-    padding: 2.5rem 2rem 2rem 2rem;
-    animation: fadeInUp 1s;
-}
-@keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(40px);}
-    to { opacity: 1; transform: translateY(0);}
-}
-.contacto-section h2 {
-    color: #6f8ca4;
-    margin-bottom: 0.5rem;
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-}
-.contacto-section p {
-    color: #203a58;
-    margin-bottom: 1.5rem;
-    font-size: 1.1rem;
-}
-.contacto-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1.1rem;
-}
-.contacto-form label {
-    font-weight: 500;
-    color: #203a58;
-    margin-bottom: 0.2rem;
-}
-.contacto-form input,
-.contacto-form textarea {
-    border: 1.5px solid #6f8ca4;
-    border-radius: 6px;
-    padding: 0.8em;
-    font-size: 1rem;
-    background: #f4f6fa;
-    color: #203a58;
-    transition: border-color 0.2s, box-shadow 0.2s;
-    outline: none;
-    resize: none;
-}
-.contacto-form input:focus,
-.contacto-form textarea:focus {
-    border-color: #dbaf8a;
-    box-shadow: 0 0 0 2px #dbaf8a55;
-}
-.btn-enviar {
-    background: #203a58;
-    color: #dbaf8a;
-    padding: 0.7em 1.5em;
-    border: none;
-    border-radius: 6px;
-    font-weight: bold;
-    font-size: 1.1rem;
-    cursor: pointer;
-    box-shadow: 0 2px 8px rgba(32,58,88,0.10);
-    transition: background 0.2s, color 0.2s, transform 0.15s, box-shadow 0.15s;
-    align-self: flex-end;
-}
-.btn-enviar:hover {
-    background: #dbaf8a;
-    color: #203a58;
-    transform: scale(1.07);
-    box-shadow: 0 6px 18px rgba(32,58,88,0.18);
-}
-@media (max-width: 600px) {
-    .contacto-section {
-        padding: 1.2rem 0.7rem 1rem 0.7rem;
-    }
-    .btn-home {
-        left: 1rem;
-        top: 1rem;
-    }
->>>>>>> ddcaaf5c30975c61649874a82dcfc819663c5112:contacto.css
 }

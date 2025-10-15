@@ -38,7 +38,7 @@ body {
 }
 
 .hero {
-  background-color: #007bff;
+  background-color:#5E1803 ;
   color: #fff;
   padding: 50px 0;
   text-align: center;
@@ -123,14 +123,14 @@ body {
 }
 
 .btn-primary {
-  background-color: #28a745;
+  background-color: #5E1803;
 }
 
 .btn-primary:hover {
-  background-color: #218838;
+  background-color: #5E1803;
 }
 
 #whatsappButton{
-background-color: #25D366;
+background-color: #5E1803;
 
 }
