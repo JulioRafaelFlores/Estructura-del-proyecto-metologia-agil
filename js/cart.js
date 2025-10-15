@@ -35,15 +35,16 @@ function updateCartDisplay() {
     cart.forEach(item => {
         const itemElement = document.createElement('div');
         itemElement.className = 'cart-item';
-        itemElement.style = 'display:flex;align-items:center;gap:16px;padding:10px 0;border-bottom:1px solid #f0f0f0;';
+        // Make each item take full width and add spacing between items
+    itemElement.style = 'width:100%;box-sizing:border-box;padding:8px;border-radius:8px;margin:5px 0;display:flex;align-items:center;gap:12px;background:transparent;border:1px solid #e6e6e6;';
         itemElement.innerHTML = `
-            <img src="${item.image || 'assets/placeholder.png'}" alt="${item.name}" style="width:56px;height:56px;object-fit:cover;border-radius:8px;border:1px solid #eee;">
-            <div style="flex:1;">
-                <div style="font-weight:600;color:var(--text);">${item.name}</div>
+            <img src="${item.image || 'assets/placeholder.png'}" alt="${item.name}" style="width:64px;height:64px;object-fit:cover;border-radius:8px;border:1px solid #eee;flex:0 0 auto;">
+            <div style="flex:1;min-width:0;">
+                <div style="font-weight:600;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${item.name}</div>
                 <div style="color:var(--muted);font-size:0.95em;">Cantidad: ${item.quantity}</div>
             </div>
             <div style="font-weight:700;color:var(--primary);min-width:80px;text-align:right;">$${(item.price * item.quantity).toFixed(2)}</div>
-            <button class="btn btn-ghost" style="color:var(--accent);font-size:1.2em;" title="Eliminar" onclick="removeFromCart(${item.id})">✕</button>
+            <button class="btn btn-ghost" style="color:var(--accent);font-size:1.2em;margin-left:8px;" title="Eliminar" onclick="removeFromCart(${item.id})">✕</button>
         `;
         cartContainer.appendChild(itemElement);
     });

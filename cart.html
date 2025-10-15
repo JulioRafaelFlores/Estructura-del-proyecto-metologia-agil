@@ -29,9 +29,10 @@
     
     <section id="cart" class="container section cart" style="max-width:700px;margin:0 auto;">
       
-      <h2 style="color:var(--primary);margin-bottom:24px;">Tu Carrito de Compras</h2>
+  <h2 style="color:var(--primary);margin-bottom:24px;text-align:center;font-size:2rem;font-weight:800;">Tu Carrito de Compras</h2>
       
-      <div id="cartItems" class="cart-items" style="background:white;border-radius:12px;box-shadow:0 6px 18px rgba(11,97,255,0.04);padding:18px 12px 8px 12px;margin-bottom:18px;min-height:120px;"></div>
+  <div id="cartItems" class="cart-items" style="background:white;border-radius:12px;height:400px;width:100vw;max-width:640px;margin:0 auto;box-shadow:0 6px 18px rgba(11,97,255,0.04);padding:18px 12px 8px 12px;margin-bottom:18px;min-height:120px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;overflow:auto;">
+  </div>
       
       <div class="cart-total" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;">
         
@@ -40,12 +41,10 @@
         <span id="totalAmount" style="font-size:1.5em;color:black;font-weight:700;">0</span>
       </div>
 
-      <div style="display:flex;gap:12px;flex-wrap:wrap;">
-
-        <button id="clearCartButton" class="btn btn-ghost" style="flex:1;">Vaciar carrito</button>
-
+      <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;align-items:center;width:100%;max-width:640px;margin:0 auto;">
+        <button id="clearCartButton" class="btn btn-ghost" style="min-width:160px;padding:10px 16px;">Vaciar carrito</button>
+        <button id="whatsappButton" class="btn btn-primary" style="background-color: #1da54f; font-size:1.05em; padding:14px 18px; height:60px;width: 100%;; border-radius:12px; letter-spacing:0.5px; font-weight:700;"> Pedir por WhatsApp</button>
       </div>
-      <button id="whatsappButton" class="btn btn-primary" style="flex:3; background-color: #1da54f; font-size:1.25em; padding:20px 0; height:60px;width: 500px;; border-radius:12px; letter-spacing:0.5px; font-weight:bold;">Enviar Pedido por WhatsApp</button>
 
     </section>
   </main>
