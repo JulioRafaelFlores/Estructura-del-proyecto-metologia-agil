@@ -752,3 +752,56 @@ body {
   font-size: 2.6rem;
 }
 /* ...existing code... */
+
+
+
+
+
+
+/* ...existing code... */
+
+
+.footer-bottom {
+
+  text-align: center;
+  padding: 1.2rem 0;
+  margin-top: 0;
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -2px;
+}
+
+.footer-bottom p {
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
