@@ -1,5 +1,5 @@
 // productos.js
-
+/*
 const products = [
     {
         id: 1,
@@ -52,3 +52,4 @@ function loadProducts() {
 }
 
 document.addEventListener('DOMContentLoaded', loadProducts);
+*/

@@ -734,3 +734,21 @@ body {
   color: #25d366;
 }
 /* ...existing code... */
+
+/* ...existing code... */
+.footer-icons li.github-icon {
+  border-color: #24292e; /* GitHub Desktop dark */
+  background: #f6f8fa;   /* GitHub Desktop light */
+}
+.footer-icons li.github-icon a .fa-github {
+  color: #24292e; /* GitHub Desktop dark */
+}
+.footer-icons li.github-icon:hover {
+  background: #24292e;
+  border-color: #24292e;
+}
+.footer-icons li.github-icon:hover a .fa-github {
+  color: #f6f8fa;
+  font-size: 2.6rem;
+}
+/* ...existing code... */

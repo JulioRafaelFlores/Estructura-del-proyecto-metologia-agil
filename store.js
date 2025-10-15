@@ -83,38 +83,6 @@ document.querySelectorAll('.product-filters button').forEach(btn => {
 });
 
 
-const productos = [
-  {
-    id: 1,
-    nombre: "Laptop HP Pavilion",
-    categoria: "laptop",
-    precio: 1200,
-    imagen: "img/laptophp.jpg"
-  },
-  {
-    id: 2,
-    nombre: "PC Gamer Ryzen",
-    categoria: "pc",
-    precio: 1800,
-    imagen: "assets/pc-gamer.jpg"
-  },
-  {
-    id: 3,
-    nombre: "Celular Samsung Galaxy",
-    categoria: "celular",
-    precio: 900,
-    imagen: "assets/samsung-galaxy.jpg"
-  },
-  {
-    id: 4,
-    nombre: "Auriculares Sony WH-1000XM4",
-    categoria: "auricular",
-    precio: 350,
-    imagen: "assets/sony-wh1000xm4.jpg"
-  }
-  // Agrega más productos según necesites
-];
-
 
 
 // ...existing code...
