@@ -9,7 +9,7 @@ const products = [
   { name: "Laptop Apple MacBook", price: "$1200", img: "img/laptop6.jpg", category: "laptop", desc: "Experiencia premium y alto rendimiento." },
 
   // Computadoras
-  { name: "PC Gamer", price: "$1200", img: "img/pc1gamer.webp", category: "pc", desc: "Potencia para juegos exigentes." },
+  { name: "PC Gamer", price: "$1200", img: "img/laptop2.png", category: "pc", desc: "Potencia para juegos exigentes." },
   { name: "PC Oficina", price: "$800", img: "img/pc2oficina.jpg", category: "pc", desc: "Perfecta para tareas administrativas." },
   { name: "PC All-in-One", price: "$950", img: "img/pc3allin.avif", category: "pc", desc: "Todo en uno, ahorra espacio." },
   { name: "PC Compacta", price: "$700", img: "img/pc4conpacta.jpg", category: "pc", desc: "Diseño pequeño y eficiente." },
@@ -17,7 +17,7 @@ const products = [
   { name: "PC Mini", price: "$600", img: "img/pc6mini.jpg", category: "pc", desc: "Solución compacta y versátil." },
 
   // Celulares
-  { name: "iPhone 14", price: "$999", img: "img/celular1.jpg", category: "celular", desc: "Tecnología avanzada y gran cámara." },
+  { name: "iPhone 14", price: "$999", img: "assets/phone.png", category: "celular", desc: "Tecnología avanzada y gran cámara." },
   { name: "Samsung Galaxy S23", price: "$850", img: "assets/phone2.png", category: "celular", desc: "Pantalla brillante y alto rendimiento." },
   { name: "Xiaomi Redmi Note 12", price: "$400", img: "assets/phone3.png", category: "celular", desc: "Excelente batería y precio accesible." },
   { name: "Motorola Edge", price: "$500", img: "assets/phone4.png", category: "celular", desc: "Diseño moderno y buen desempeño." },
