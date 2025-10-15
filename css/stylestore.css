@@ -218,6 +218,31 @@ body {
   gap: 2rem;
 }
 
+/* Carrito: limitar la lista de items y permitir scroll cuando crece */
+.cart-items, #cartItems {
+  max-height: 360px; /* ajusta según necesidad */
+  overflow-y: auto;
+  padding-right: 8px; /* espacio para scrollbar */
+}
+
+/* Scrollbar moderno para webkit */
+.cart-items::-webkit-scrollbar, #cartItems::-webkit-scrollbar {
+  width: 10px;
+}
+.cart-items::-webkit-scrollbar-track, #cartItems::-webkit-scrollbar-track {
+  background: transparent;
+}
+.cart-items::-webkit-scrollbar-thumb, #cartItems::-webkit-scrollbar-thumb {
+  background: rgba(11,97,255,0.12);
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+@media (max-width:600px){
+  .cart-items, #cartItems { max-height: 240px; }
+}
+
 .hero-text h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
