@@ -9,12 +9,12 @@ const products = [
   { name: "Laptop Apple MacBook", price: "$1200", img: "img/laptop6.jpg", category: "laptop", desc: "Experiencia premium y alto rendimiento." },
 
   // Computadoras
-  { name: "PC Gamer", price: "$1200", img: "img/pc.png", category: "pc", desc: "Potencia para juegos exigentes." },
-  { name: "PC Oficina", price: "$800", img: "img/pc2.png", category: "pc", desc: "Perfecta para tareas administrativas." },
-  { name: "PC All-in-One", price: "$950", img: "img/pc3.png", category: "pc", desc: "Todo en uno, ahorra espacio." },
-  { name: "PC Compacta", price: "$700", img: "img/pc4.png", category: "pc", desc: "Diseño pequeño y eficiente." },
-  { name: "PC Workstation", price: "$1500", img: "img/pc5.png", category: "pc", desc: "Ideal para diseño y edición profesional." },
-  { name: "PC Mini", price: "$600", img: "img/pc6.png", category: "pc", desc: "Solución compacta y versátil." },
+  { name: "PC Gamer", price: "$1200", img: "img/pc1gamer.webp", category: "pc", desc: "Potencia para juegos exigentes." },
+  { name: "PC Oficina", price: "$800", img: "img/pc2oficina.jpg", category: "pc", desc: "Perfecta para tareas administrativas." },
+  { name: "PC All-in-One", price: "$950", img: "img/pc3allin.avif", category: "pc", desc: "Todo en uno, ahorra espacio." },
+  { name: "PC Compacta", price: "$700", img: "img/pc4conpacta.jpg", category: "pc", desc: "Diseño pequeño y eficiente." },
+  { name: "PC Workstation", price: "$1500", img: "img/pc5workstation.avif", category: "pc", desc: "Ideal para diseño y edición profesional." },
+  { name: "PC Mini", price: "$600", img: "img/pc6mini.jpg", category: "pc", desc: "Solución compacta y versátil." },
 
   // Celulares
   { name: "iPhone 14", price: "$999", img: "assets/phone.png", category: "celular", desc: "Tecnología avanzada y gran cámara." },
