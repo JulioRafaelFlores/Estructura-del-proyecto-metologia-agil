@@ -576,3 +576,161 @@ body {
   
 
 }
+
+
+/* Estilo general para los íconos del footer */
+
+
+/*
+
+
+.footer-social {
+  margin-top: 24px;
+  text-align: left;
+}
+.footer-title {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.footer-icons {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 0;
+}
+.footer-icons li {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: transparent;
+  transition: background 0.2s, border-color 0.2s;
+}
+.footer-icons li a {
+  color: #fff;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  transition: color 0.2s, font-size 0.2s;
+}
+.footer-icons li:hover {
+  background: #1877f2;
+  border-color: #1877f2;
+}
+.footer-icons li:hover a .fa-facebook-f {
+  color: #fff;
+}
+.footer-icons li:nth-child(2):hover {
+  background: #e4405f;
+  border-color: #e4405f;
+}
+.footer-icons li:nth-child(2):hover a .fa-instagram {
+  color: #fff;
+  font-size: 2.2rem;
+}
+.footer-icons li.whatsapp-icon {
+  border-color: #25d366;
+}
+.footer-icons li.whatsapp-icon a .fa-whatsapp {
+  color: #25d366;
+}
+.footer-icons li.whatsapp-icon:hover {
+  background: #25d366;
+  border-color: #25d366;
+}
+.footer-icons li.whatsapp-icon:hover a .fa-whatsapp {
+  color: #fff;
+  font-size: 2.2rem;
+}
+@media (max-width: 576px) {
+  .footer-icons li {
+    width: 40px;
+    height: 40px;
+  }
+  .footer-icons li a {
+    font-size: 1.5rem;
+  }
+}
+*/
+
+.footer-icons {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 0;
+}
+.footer-icons li {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: transparent;
+  transition: background 0.2s, border-color 0.2s;
+  border: 2px solid #fff; /* Default border */
+}
+.footer-icons li.facebook-icon {
+  border-color: #1877f2;
+}
+.footer-icons li.instagram-icon {
+  border-color: #833AB4; /* Morado Instagram */
+}
+.footer-icons li.whatsapp-icon {
+  border-color: #25d366;
+}
+.footer-icons li a {
+  color: #fff;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  transition: color 0.2s, font-size 0.2s;
+}
+.footer-icons li.facebook-icon:hover {
+  background: #1877f2;
+  border-color: #1877f2;
+}
+.footer-icons li.facebook-icon:hover a .fa-facebook-f {
+  color: #fff;
+}
+.footer-icons li.instagram-icon:hover {
+  background: linear-gradient(45deg, #833AB4, #FD1D1D, #FCAF45);
+  border-color: #833AB4;
+}
+.footer-icons li.instagram-icon:hover a .fa-instagram {
+  color: #fff;
+  font-size: 2.2rem;
+}
+.footer-icons li.whatsapp-icon:hover {
+  background: #25d366;
+  border-color: #25d366;
+}
+.footer-icons li.whatsapp-icon:hover a .fa-whatsapp {
+  color: #fff;
+  font-size: 2.2rem;
+}
+/* ...existing code... */
+.footer-icons li.facebook-icon a .fa-facebook-f {
+  color: #1877f2;
+}
+.footer-icons li.instagram-icon a .fa-instagram {
+  color: #833AB4;
+}
+.footer-icons li.whatsapp-icon a .fa-whatsapp {
+  color: #25d366;
+}
+/* ...existing code... */

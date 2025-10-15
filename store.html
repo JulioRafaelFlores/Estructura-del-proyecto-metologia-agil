@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Tech Store — Secciones</title>
   <link rel="stylesheet" href="css/stylestore.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner" style="display:flex;align-items:center;">
       <a class="logo" href="#">TechStore</a>
       <nav class="nav">
-        <button class="btn btn-primary" onclick="location.href='accesorios.html#about'">Accesories</button>
+        <button class="btn btn-primary" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">Productos</button>
         <button class="btn btn-primary" onclick="location.href='contacto.html#contact'">Contact</button>
       </nav>
       <!-- Botón grande del carrito en la esquina superior derecha -->
@@ -96,30 +97,30 @@
 
   <!-- redes sociales movidas al footer -->
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>© <span id="year"></span> TechStore</div>
-      <div class="social">
-          <div class="social-item">
-            <button class="icon-btn" onclick="window.open('https://wa.me/1234567890','_blank')" aria-label="WhatsApp">
-              <img src="img/whatsapp.png" alt="WhatsApp" class="social-icon">
-            </button>
-            <span class="social-label">WhatsApp</span>
-          </div>
-          <div class="social-item">
-            <button class="icon-btn" onclick="window.open('https://facebook.com/tuusuario','_blank')" aria-label="Facebook">
-              <img src="img/ffac.jpg" alt="Facebook" class="social-icon">
-            </button>
-            <span class="social-label">Facebook</span>
-          </div>
-          <div class="social-item">
-            <button class="icon-btn" onclick="window.open('https://www.instagram.com/nexus_web_a/','_blank')" aria-label="Instagram">
-              <img src="img/instagram.png" alt="Instagram" class="social-icon">
-            </button>
-            <span class="social-label">Instagram</span>
-          </div>
-      </div>
+  <div class="container footer-inner">
+    <div>© <span id="year"></span> TechStore</div>
+    <div class="footer-social">
+      <h3 class="footer-title">Redes Sociales</h3>
+      <ul class="footer-icons">
+        <li class="facebook-icon">
+          <a href="https://www.facebook.com/share/15oGi8qs8p/" target="_blank" rel="noreferrer">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li class="instagram-icon">
+          <a href="https://www.instagram.com/panaderia_of_esperanza?igsh=anI3bWhiczdjcno5" target="_blank" rel="noreferrer">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li class="whatsapp-icon">
+          <a href="https://wa.me/8097576158" target="_blank" rel="noreferrer">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </li>
+      </ul>
     </div>
-  </footer>
+  </div>
+</footer>
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();

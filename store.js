@@ -9,9 +9,16 @@ const products = [
   { name: "Laptop Apple MacBook", price: "$1200", img: "img/laptop6.jpg", category: "laptop", desc: "Experiencia premium y alto rendimiento." },
 
 
+// Accesorios para laptops
+{ name: "Mouse Inalámbrico Logitech", price: "$35", img: "img/mouse-logitech.jpg", category: "accesorio", desc: "Precisión y comodidad para trabajar sin cables." },
+{ name: "Teclado Bluetooth Microsoft", price: "$45", img: "img/teclado-microsoft.jpg", category: "accesorio", desc: "Diseño compacto y conexión rápida." },
+{ name: "Base Refrigerante Cooler Master", price: "$28", img: "img/base-coolermaster.jpg", category: "accesorio", desc: "Mantén tu laptop fresca y mejora el rendimiento." },
+{ name: "Hub USB-C 6 en 1", price: "$55", img: "img/hub-usbc.jpg", category: "accesorio", desc: "Expande puertos y conecta todos tus dispositivos." },
+{ name: "Funda Protectora Neopreno", price: "$22", img: "img/funda-neopreno.jpg", category: "accesorio", desc: "Protege tu laptop de golpes y rayaduras." },
+{ name: "Adaptador HDMI a VGA", price: "$18", img: "img/adaptador-hdmivga.jpg", category: "accesorio", desc: "Conecta tu laptop a monitores y proyectores antiguos." },
   
   // Computadoras
-  { name: "PC Gamer", price: "$1200", img: "img/laptop2.png", category: "pc", desc: "Potencia para juegos exigentes." },
+  { name: "PC Gamer", price: "$1200", img: "img/pc1gamer.webp", category: "pc", desc: "Potencia para juegos exigentes." },
   { name: "PC Oficina", price: "$800", img: "img/pc2oficina.jpg", category: "pc", desc: "Perfecta para tareas administrativas." },
   { name: "PC All-in-One", price: "$950", img: "img/pc3allin.avif", category: "pc", desc: "Todo en uno, ahorra espacio." },
   { name: "PC Compacta", price: "$700", img: "img/pc4conpacta.jpg", category: "pc", desc: "Diseño pequeño y eficiente." },
@@ -20,8 +27,8 @@ const products = [
 
   // Celulares
   { name: "iPhone 14", price: "$999", img: "img/celular1.jpg", category: "celular", desc: "Tecnología avanzada y gran cámara." },
-  { name: "Samsung Galaxy S23", price: "$850", img: "img/phone2.png", category: "celular", desc: "Pantalla brillante y alto rendimiento." },
-  { name: "Xiaomi Redmi Note 12", price: "$400", img: "assets/phone3.png", category: "celular", desc: "Excelente batería y precio accesible." },
+  { name: "Samsung Galaxy S23", price: "$850", img: "img/celu3.jpg", category: "celular", desc: "Pantalla brillante y alto rendimiento." },
+  { name: "Xiaomi Redmi Note 12", price: "$400", img: "img/celu2.jpg", category: "celular", desc: "Excelente batería y precio accesible." },
   { name: "Motorola Edge", price: "$500", img: "img/cel4.avif", category: "celular", desc: "Diseño moderno y buen desempeño." },
   { name: "Huawei P50", price: "$600", img: "img/cel5.webp", category: "celular", desc: "Fotografía profesional y elegante." },
   { name: "Google Pixel 7", price: "$700", img: "img/celu6.jpg", category: "celular", desc: "Android puro y cámara de calidad." },
