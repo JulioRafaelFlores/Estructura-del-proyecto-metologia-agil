@@ -8,7 +8,7 @@ const products = [
   { name: "Laptop Acer", price: "$630", img: "img/laptop5.jpg", category: "laptop", desc: "Excelente relación calidad-precio." },
   { name: "Laptop Apple MacBook", price: "$1200", img: "img/laptop6.jpg", category: "laptop", desc: "Experiencia premium y alto rendimiento." },
 
-  
+
   // Computadoras
   { name: "PC Gamer", price: "$1200", img: "img/laptop2.png", category: "pc", desc: "Potencia para juegos exigentes." },
   { name: "PC Oficina", price: "$800", img: "img/pc2oficina.jpg", category: "pc", desc: "Perfecta para tareas administrativas." },
@@ -19,7 +19,7 @@ const products = [
 
   // Celulares
   { name: "iPhone 14", price: "$999", img: "img/celular1.jpg", category: "celular", desc: "Tecnología avanzada y gran cámara." },
-  { name: "Samsung Galaxy S23", price: "$850", img: "assets/phone2.png", category: "celular", desc: "Pantalla brillante y alto rendimiento." },
+  { name: "Samsung Galaxy S23", price: "$850", img: "img/phone2.png", category: "celular", desc: "Pantalla brillante y alto rendimiento." },
   { name: "Xiaomi Redmi Note 12", price: "$400", img: "assets/phone3.png", category: "celular", desc: "Excelente batería y precio accesible." },
   { name: "Motorola Edge", price: "$500", img: "assets/phone4.png", category: "celular", desc: "Diseño moderno y buen desempeño." },
   { name: "Huawei P50", price: "$600", img: "assets/phone5.png", category: "celular", desc: "Fotografía profesional y elegante." },
